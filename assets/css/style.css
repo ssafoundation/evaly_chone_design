@@ -466,7 +466,7 @@ p span span {
 }
 
 .hero_bottom_img.bg-1 {
-  background-image: url(/assets/img/hero-bottom-img-1.jpeg);
+  background-image: url(./assets/img/hero-bottom-img-1.jpeg);
 }
 
 /* ================= ---------------------------  ================= */
