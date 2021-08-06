@@ -83,6 +83,13 @@ focus {
   display: none;
   text-align: center;
 }
+
+.mobile_hero_feature {
+  display: none!important;
+}
+.on_going_campaign {
+  display: none;
+}
 /* ================= scroll sticky menu   ================= */
 
 /* ================= navbar wrap   ================= */
@@ -252,11 +259,10 @@ p span span {
 
 .header_search_wrap {
   width: 100%;
-  border: 1px solid #c53030;
-  border-radius: 10px;
+  border: 2px solid #c53030;
+  border-radius: 5px;
   overflow: hidden;
 }
-
 .header_search_wrap input {
   width: 84%;
   border: none;
@@ -417,7 +423,30 @@ p span span {
   align-items: center;
   justify-content: space-between;
 }
-
+.mobile_hero_feature {
+  display: flex;
+  padding: 15px 7px;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0px;
+}
+.feature_single_item {
+  text-align: center;
+  width: 20%;
+}
+.feature_single_item p {
+  font-size: 12px;
+  margin-top: 7px;
+}
+.on_going_campaign h4 {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.feature_single_item img {
+  width: 100%;
+  padding: 5px;
+}
 /* ================= ---------------------------  ================= */
 .hero_top_slider {
   margin-top: 25px;
@@ -647,7 +676,7 @@ p span span {
 }
 
 .product_wrap .product_title a {
-  font-weight: 600;
+  /* font-weight: 600; */
   color: rgba(85, 75, 75, 0.85);
   text-align: left;
   margin-bottom: 10px;

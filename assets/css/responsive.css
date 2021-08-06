@@ -123,90 +123,12 @@
     }
 
     @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .hero_nav_item_wrap {
-            display: none;
-        }
-
-        .site_logo_responsive_icon {
+        main {
             display: block;
+            margin: 0px 10px;
+            overflow: hidden;
         }
 
-        .header_middle_profile_wrap {
-            position: fixed;
-            width: 100%;
-            left: 0px;
-            z-index: 99;
-            background: #ffffff;
-            height: auto;
-            bottom: 0;
-            margin-left: 0;
-            padding: 8px 10%;
-        }
-
-        .site_logo_responsive_icon h3 {
-            width: 60px;
-            height: 60px;
-            font-size: 30px;
-            background: #212529;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            position: relative;
-            top: -25px;
-            color: #fff;
-        }
-
-        .header_middle_profile_wrap h4 {
-            display: block;
-            font-size: 16px;
-            font-weight: 700;
-            margin-top: 10px;
-        }
-
-        .header_bottom_wrap {
-            display: none;
-        }
-
-        .header_search_wrap input {
-            width: 80%;
-        }
-
-        .header_search_wrap button {
-            width: 18%;
-        }
-
-        .header_top_main_wrap {
-            display: none;
-        }
-
-        .emart-brand h2 {
-            display: none;
-        }
-
-        .responsive_toggle_btn {
-            display: block;
-            position: relative;
-            top: unset;
-            text-align: center;
-        }
-
-        .main_navbar_inner {
-            flex-direction: row-reverse;
-            position: fixed;
-            left: 0px;
-            bottom: 0;
-            right: unset;
-            width: 100%;
-        }
-
-        .product_title h3 {
-            font-size: 20px;
-        }
-    }
-
-    @media only screen and (min-width: 401px) and (max-width: 575px) {
         .hero_nav_item_wrap {
             display: none;
         }
@@ -220,13 +142,13 @@
             height: auto;
             bottom: 0;
             margin-left: 0;
-            padding: 8px 10%;
+            padding: 8px 15%;
         }
 
         .site_logo_responsive_icon h3 {
             width: 60px;
             height: 60px;
-            font-size: 30px;
+            font-size: 53px;
             background: #212529;
             text-align: center;
             display: flex;
@@ -234,10 +156,10 @@
             justify-content: center;
             border-radius: 50%;
             position: relative;
-            top: -25px;
+            top: -30px;
             color: #fff;
+            text-transform: lowercase;
         }
-
         .header_middle_profile_wrap h4 {
             display: block;
             font-size: 16px;
@@ -250,11 +172,17 @@
         }
 
         .header_search_wrap input {
-            width: 80%;
+            width: 88%;
         }
 
         .header_search_wrap button {
-            width: 18%;
+            width: 10%;
+            padding: 8px 10px;
+            right: -10px;
+        }
+
+        .header_search_wrap button i {
+            font-size: 14px;
         }
 
         .header_top_main_wrap {
@@ -283,17 +211,29 @@
 
         .product_title h3 {
             font-size: 16px;
-            width: 50%;
+            width: 100%;
+            margin-bottom: 10px;
         }
+        
 
         .header_middle_main_search {
             width: 100%;
             padding-right: 4%;
         }
 
-        .express_product_title h3 {
-            margin-bottom: 0;
-            font-size: 16px;
+        .hero_top_slider {
+            margin-top: 10px;
+        }
+
+        .hero_bottom_img.bg-1 {
+            display: block;
+        }
+
+        .hero_bottom_img {
+            height: 75px;
+        }
+        .hero_bottom_image {
+            margin-top: 10px;
         }
 
         .express_items_wrap .owl-nav {
@@ -302,140 +242,6 @@
             right: 0;
         }
 
-        .product_brand_wrap .search_box button {
-            padding: 8px 11px;
-            font-size: 16px;
-            position: relative;
-            right: -5px;
-        }
-        .search_box input {
-            width: 78%;
-        }
-        .store_wrap .search_box input {
-            width: 73%;
-        }
-        .store_wrap .search_box button {
-            right: -8px;
-        }
-        .store_location_btn button {
-           
-            padding: 8px 14px;
-            font-size: 16px;
-            border-radius: 5px;
-            margin-left: 5px;
-            border: 1px solid #202a2f;
-        }
-        .product_wrap .search_box input {
-            width: 70%;
-        }
-        .product_wrap .product_store_title_right>a {
-            font-size: 14px;
-            padding: 5px 5px;
-            margin-left: 5px;
-        }
-        .product_wrap .search_box {
-            width: 68%;
-        }
-        .product_wrap .search_box button {
-            padding: 8px 11px;
-            font-size: 15px;
-            position: relative;
-            right: -4px;
-        }
-        .footer_single_item_wrap {
-           
-            text-align: center;
-        }
-        .footer_single_item_wrap a img {
-            margin: 0 auto;
-        }
-    }
-
-    @media only screen and (min-width: 280px) and (max-width: 400px) {
-        .hero_nav_item_wrap {
-            display: none;
-        }
-
-        .header_middle_profile_wrap {
-            position: fixed;
-            width: 100%;
-            left: 0px;
-            z-index: 99;
-            background: #ffffff;
-            height: auto;
-            bottom: 0;
-            margin-left: 0;
-            padding: 8px 10%;
-        }
-
-        .site_logo_responsive_icon h3 {
-            width: 60px;
-            height: 60px;
-            font-size: 30px;
-            background: #212529;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            position: relative;
-            top: -25px;
-            color: #fff;
-        }
-
-        .header_middle_profile_wrap h4 {
-            display: block;
-            font-size: 16px;
-            font-weight: 700;
-            margin-top: 10px;
-        }
-
-        .header_bottom_wrap {
-            display: none;
-        }
-
-        .header_search_wrap input {
-            width: 80%;
-        }
-
-        .header_search_wrap button {
-            width: 18%;
-        }
-
-        .header_top_main_wrap {
-            display: none;
-        }
-
-        .emart-brand h2 {
-            display: none;
-        }
-
-        .responsive_toggle_btn {
-            display: block;
-            position: relative;
-            top: unset;
-            text-align: center;
-        }
-
-        .main_navbar_inner {
-            flex-direction: row-reverse;
-            position: fixed;
-            left: 0px;
-            bottom: 0;
-            right: unset;
-            width: 100%;
-        }
-
-        .product_title h3 {
-            font-size: 16px;
-            width: 50%;
-        }
-
-        .header_middle_main_search {
-            width: 100%;
-            padding-right: 4%;
-        }
-
         .express_product_title h3 {
             margin-bottom: 0;
             font-size: 16px;
@@ -443,55 +249,725 @@
 
         .express_items_wrap .owl-nav {
             position: absolute;
-            top: -76px;
+            top: -56px;
             right: 0;
         }
 
         .search_box button {
-            padding: 8px 11px;
+            padding: 8px 6px;
             font-size: 16px;
             position: relative;
             right: -2px;
         }
+
         .search_box input {
-            width: 78%;
+            width: 87%;
+        }
+        .view_all_product p {
+            font-size: 13px;
+        }
+        .view_all_product_btn {
+            background: #c53030;
+            color: #fff !important;
+            font-size: 13px;
+            padding: 6px 5px;
+        }
+        /* .product_brand_wrap.store_wrap{} */
+        .product_brand_grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 2vw;
+        }
+        .b_single_item_bottom {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .b_single_item_bottom a {
+            font-size: 13px;
+        }
+        .search_box {
+            
+            width: 80%;
+            margin: 0 auto;
         }
         .store_wrap .search_box input {
-            width: 73%;
+            width: 87%;
         }
+
         .store_wrap .search_box button {
             right: -3px;
         }
+
         .store_location_btn button {
-           
-            padding: 8px 14px;
+            padding: 8px 10px;
             font-size: 16px;
             border-radius: 5px;
-            margin-left: 5px;
+            margin-left: 0px;
             border: 1px solid #202a2f;
         }
+
         .product_wrap .search_box input {
-            width: 70%;
+            width: 78%;
         }
+
         .product_wrap .product_store_title_right>a {
             font-size: 14px;
-            padding: 5px 5px;
-            margin-left: 5px;
+            padding: 5px 7px;
+            margin-left: 0px;
+            text-transform: uppercase;
         }
         .product_wrap .search_box {
             width: 68%;
         }
+
         .product_wrap .search_box button {
             padding: 8px 11px;
             font-size: 15px;
             position: relative;
             right: -4px;
         }
+
         .footer_single_item_wrap {
-           
+
             text-align: center;
         }
+
         .footer_single_item_wrap a img {
             margin: 0 auto;
         }
+
+        .responsive_toggle_btn i {
+            font-size: 16px;
+        }
+        .express_product_title {
+            padding: 20px 0;
+          }
+          .product_title {
+            display: block;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .product_wrap .product_title {
+            display: block;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .header-main-area.scroll-header {
+            width: 95%;
+            margin: 0 auto;
+        }
+        .product_wrap .product_title a {
+           
+            font-size: 13px;
+        }
+        .product_price span {
+            font-size: 14px;
+        }
+        .product_single_top {
+           
+            padding-bottom: 7px;
+            padding-top: 10px;
+        }
+        .footer_main_wrap {
+        
+            display: none;
+        }
+        .site_logo_responsive_icon {
+            display: block;
+        }
+        .product_wrap.mobile_responsive {
+            margin-bottom: 100px;
+        }
+        .navbar_toggle_bg {
+            width: 30%;
+        }
+        .navbar_items_area {
+            width: 70%;
+        }
+        .header_middle_profile_wrap span {
+            width: 35px;
+            height: 35px;
+            font-size: 14px;
+        }
+        .header_middle_profile_wrap h4 {
+            display: block;
+            font-size: 13px;
+            font-weight: 400;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .mobile_hero_feature {
+            display: flex!important;
+          }
+          .on_going_campaign {
+            display: block;
+          }
+    }
+
+    @media only screen and (min-width: 401px) and (max-width: 575px) {
+        main {
+            display: block;
+            margin: 0px 10px;
+            overflow: hidden;
+        }
+
+        .hero_nav_item_wrap {
+            display: none;
+        }
+
+        .header_middle_profile_wrap {
+            position: fixed;
+            width: 100%;
+            left: 0px;
+            z-index: 99;
+            background: #ffffff;
+            height: auto;
+            bottom: 0;
+            margin-left: 0;
+            padding: 8px 4%;
+        }
+
+        .site_logo_responsive_icon h3 {
+            width: 60px;
+            height: 60px;
+            font-size: 53px;
+            background: #212529;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            position: relative;
+            top: -30px;
+            color: #fff;
+            text-transform: lowercase;
+        }
+        .header_middle_profile_wrap h4 {
+            display: block;
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+
+        .header_bottom_wrap {
+            display: none;
+        }
+
+        .header_search_wrap input {
+            width: 88%;
+        }
+
+        .header_search_wrap button {
+            width: 10%;
+            padding: 8px 10px;
+        }
+
+        .header_search_wrap button i {
+            font-size: 14px;
+        }
+
+        .header_top_main_wrap {
+            display: none;
+        }
+
+        .emart-brand h2 {
+            display: none;
+        }
+
+        .responsive_toggle_btn {
+            display: block;
+            position: relative;
+            top: unset;
+            text-align: center;
+        }
+
+        .main_navbar_inner {
+            flex-direction: row-reverse;
+            position: fixed;
+            left: 0px;
+            bottom: 0;
+            right: unset;
+            width: 100%;
+        }
+
+        .product_title h3 {
+            font-size: 16px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        
+
+        .header_middle_main_search {
+            width: 100%;
+            padding-right: 4%;
+        }
+
+        .hero_top_slider {
+            margin-top: 10px;
+        }
+
+        .hero_bottom_img.bg-1 {
+            display: none;
+        }
+
+        .hero_bottom_img {
+            height: 75px;
+        }
+        .hero_bottom_image {
+            margin-top: 10px;
+        }
+
+        .express_items_wrap .owl-nav {
+            position: absolute;
+            top: -76px;
+            right: 0;
+        }
+
+        .express_product_title h3 {
+            margin-bottom: 0;
+            font-size: 16px;
+        }
+
+        .express_items_wrap .owl-nav {
+            position: absolute;
+            top: -56px;
+            right: 0;
+        }
+
+        .search_box button {
+            padding: 8px 6px;
+            font-size: 16px;
+            position: relative;
+            right: -2px;
+        }
+
+        .search_box input {
+            width: 87%;
+        }
+        .view_all_product p {
+            font-size: 13px;
+        }
+        .view_all_product_btn {
+            background: #c53030;
+            color: #fff !important;
+            font-size: 13px;
+            padding: 6px 5px;
+        }
+        /* .product_brand_wrap.store_wrap{} */
+        .product_brand_grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 2vw;
+        }
+        .b_single_item_bottom {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .b_single_item_bottom a {
+            font-size: 13px;
+        }
+        .search_box {
+            
+            width: 80%;
+            margin: 0 auto;
+        }
+        .store_wrap .search_box input {
+            width: 87%;
+        }
+
+        .store_wrap .search_box button {
+            right: -3px;
+        }
+
+        .store_location_btn button {
+            padding: 8px 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-left: 0px;
+            border: 1px solid #202a2f;
+        }
+
+        .product_wrap .search_box input {
+            width: 78%;
+        }
+
+        .product_wrap .product_store_title_right>a {
+            font-size: 14px;
+            padding: 5px 7px;
+            margin-left: 0px;
+            text-transform: uppercase;
+        }
+        .product_wrap .search_box {
+            width: 68%;
+        }
+
+        .product_wrap .search_box button {
+            padding: 8px 11px;
+            font-size: 15px;
+            position: relative;
+            right: -4px;
+        }
+
+        .footer_single_item_wrap {
+
+            text-align: center;
+        }
+
+        .footer_single_item_wrap a img {
+            margin: 0 auto;
+        }
+
+        .responsive_toggle_btn i {
+            font-size: 16px;
+        }
+        .express_product_title {
+            padding: 20px 0;
+          }
+          .product_title {
+            display: block;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .product_wrap .product_title {
+            display: block;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .header-main-area.scroll-header {
+            width: 95%;
+            margin: 0 auto;
+        }
+        .product_wrap .product_title a {
+           
+            font-size: 13px;
+        }
+        .product_price span {
+            font-size: 14px;
+        }
+        .product_single_top {
+           
+            padding-bottom: 7px;
+            padding-top: 10px;
+        }
+        .footer_main_wrap {
+        
+            display: none;
+        }
+        .site_logo_responsive_icon {
+            display: block;
+        }
+        .product_wrap.mobile_responsive {
+            margin-bottom: 100px;
+        }
+        .navbar_toggle_bg {
+            width: 30%;
+        }
+        .navbar_items_area {
+            width: 70%;
+        }
+        .header_middle_profile_wrap span {
+            width: 35px;
+            height: 35px;
+            font-size: 14px;
+        }
+        .header_middle_profile_wrap h4 {
+            display: block;
+            font-size: 13px;
+            font-weight: 400;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .mobile_hero_feature {
+            display: flex!important;
+          }
+          .on_going_campaign {
+            display: block;
+          }
+    }
+
+    @media only screen and (min-width: 280px) and (max-width: 400px) {
+        main {
+            display: block;
+            margin: 0px 10px;
+            overflow: hidden;
+        }
+
+        .hero_nav_item_wrap {
+            display: none;
+        }
+
+        .header_middle_profile_wrap {
+            position: fixed;
+            width: 100%;
+            left: 0px;
+            z-index: 99;
+            background: #ffffff;
+            height: auto;
+            bottom: 0;
+            margin-left: 0;
+            padding: 8px 4%;
+        }
+
+        .site_logo_responsive_icon h3 {
+            width: 60px;
+            height: 60px;
+            font-size: 53px;
+            background: #212529;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            position: relative;
+            top: -30px;
+            color: #fff;
+            text-transform: lowercase;
+        }
+        .header_middle_profile_wrap h4 {
+            display: block;
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+
+        .header_bottom_wrap {
+            display: none;
+        }
+
+        .header_search_wrap input {
+            width: 88%;
+        }
+
+        .header_search_wrap button {
+            width: 10%;
+            padding: 8px 10px;
+        }
+
+        .header_search_wrap button i {
+            font-size: 14px;
+        }
+
+        .header_top_main_wrap {
+            display: none;
+        }
+
+        .emart-brand h2 {
+            display: none;
+        }
+
+        .responsive_toggle_btn {
+            display: block;
+            position: relative;
+            top: unset;
+            text-align: center;
+        }
+
+        .main_navbar_inner {
+            flex-direction: row-reverse;
+            position: fixed;
+            left: 0px;
+            bottom: 0;
+            right: unset;
+            width: 100%;
+        }
+
+        .product_title h3 {
+            font-size: 16px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        
+
+        .header_middle_main_search {
+            width: 100%;
+            padding-right: 4%;
+        }
+
+        .hero_top_slider {
+            margin-top: 10px;
+        }
+
+        .hero_bottom_img.bg-1 {
+            display: none;
+        }
+
+        .hero_bottom_img {
+            height: 75px;
+        }
+        .hero_bottom_image {
+            margin-top: 10px;
+        }
+
+        .express_items_wrap .owl-nav {
+            position: absolute;
+            top: -76px;
+            right: 0;
+        }
+
+        .express_product_title h3 {
+            margin-bottom: 0;
+            font-size: 16px;
+        }
+
+        .express_items_wrap .owl-nav {
+            position: absolute;
+            top: -56px;
+            right: 0;
+        }
+
+        .search_box button {
+            padding: 8px 6px;
+            font-size: 16px;
+            position: relative;
+            right: -2px;
+        }
+
+        .search_box input {
+            width: 87%;
+        }
+        .view_all_product p {
+            font-size: 13px;
+        }
+        .view_all_product_btn {
+            background: #c53030;
+            color: #fff !important;
+            font-size: 13px;
+            padding: 6px 5px;
+        }
+        /* .product_brand_wrap.store_wrap{} */
+        .product_brand_grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 2vw;
+        }
+        .b_single_item_bottom {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .b_single_item_bottom a {
+            font-size: 13px;
+        }
+        .search_box {
+            
+            width: 80%;
+            margin: 0 auto;
+        }
+        .store_wrap .search_box input {
+            width: 87%;
+        }
+
+        .store_wrap .search_box button {
+            right: -3px;
+        }
+
+        .store_location_btn button {
+            padding: 8px 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-left: 0px;
+            border: 1px solid #202a2f;
+        }
+
+        .product_wrap .search_box input {
+            width: 78%;
+        }
+
+        .product_wrap .product_store_title_right>a {
+            font-size: 14px;
+            padding: 5px 7px;
+            margin-left: 0px;
+            text-transform: uppercase;
+        }
+        .product_wrap .search_box {
+            width: 68%;
+        }
+
+        .product_wrap .search_box button {
+            padding: 8px 11px;
+            font-size: 15px;
+            position: relative;
+            right: -4px;
+        }
+
+        .footer_single_item_wrap {
+
+            text-align: center;
+        }
+
+        .footer_single_item_wrap a img {
+            margin: 0 auto;
+        }
+
+        .responsive_toggle_btn i {
+            font-size: 16px;
+        }
+        .express_product_title {
+            padding: 20px 0;
+          }
+          .product_title {
+            display: block;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .product_wrap .product_title {
+            display: block;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .header-main-area.scroll-header {
+            width: 95%;
+            margin: 0 auto;
+        }
+        .product_wrap .product_title a {
+           
+            font-size: 13px;
+        }
+        .product_price span {
+            font-size: 14px;
+        }
+        .product_single_top {
+           
+            padding-bottom: 7px;
+            padding-top: 10px;
+        }
+        .footer_main_wrap {
+        
+            display: none;
+        }
+        .site_logo_responsive_icon {
+            display: block;
+        }
+        .product_wrap.mobile_responsive {
+            margin-bottom: 100px;
+        }
+        .navbar_toggle_bg {
+            width: 30%;
+        }
+        .navbar_items_area {
+            width: 70%;
+        }
+        .header_middle_profile_wrap span {
+            width: 35px;
+            height: 35px;
+            font-size: 14px;
+        }
+        .header_middle_profile_wrap h4 {
+            display: block;
+            font-size: 13px;
+            font-weight: 400;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .mobile_hero_feature {
+            display: flex!important;
+          }
+          .on_going_campaign {
+            display: block;
+          }
     }
