@@ -147,7 +147,7 @@ focus {
   top: 0;
 }
 
-.navbar_items_area {
+.main_navbar_wrap .navbar_items_area {
   width: 30%;
   height: 100%;
   background: #fff;
@@ -1063,7 +1063,7 @@ p span span {
   top: 0;
 }
 
-.navbar_items_area {
+.main_cart_wrap .navbar_items_area {
   width: 30%;
   height: 100%;
   background: #000;
