@@ -46,7 +46,15 @@ focus {
   /* Edge */
   font-size: 14px;
 }
-
+.modal-backdrop {
+  background-color: transparent;
+  z-index: 9999;
+  position: relative;
+}
+main{
+  z-index: 99999;
+  position: relative;
+}
 /* ================= scroll sticky menu   ================= */
 .header-main-area.scroll-header {
   position: fixed;
@@ -897,7 +905,7 @@ p span span {
   padding: 20px 12%;
 }
 .massage_wrap .modal__main__wrap {
-  width: 300px;
+  width: 380px;
   min-height: unset !important;
   right: 16% !important;
   overflow: unset;
@@ -906,7 +914,10 @@ p span span {
   align-items: unset;
   position: absolute;
 }
-
+.massage_wrap .modal__main__wrap img {
+  width: 60%!important;
+  margin: 0 auto;
+}
 .account_wrap .modal__main__wrap {
   width: 250px;
   min-height: unset !important;
@@ -982,30 +993,25 @@ p span span {
   font-size: 16px;
 }
 
-#pills-home2 a {
+.modal__main__wrap a {
   display: inline-block;
   background: red;
+  border: 1px solid red;
   color: #fff;
-  padding: 2px 26px;
+  padding: 5px 26px;
   margin-top: 18px;
-  border-radius: 8px;
+  border-radius: 5px;
 }
-
+.modal__main__wrap a:hover{
+background: #fff;
+color: #000;
+}
 #pills-profile2 img {
   width: 100%;
 }
 
 #pills-profile2 p {
   font-size: 16px;
-}
-
-#pills-profile2 a {
-  display: inline-block;
-  background: red;
-  color: #fff;
-  padding: 2px 26px;
-  margin-top: 18px;
-  border-radius: 8px;
 }
 
 .btn.account_wrap_login_btn {
@@ -1105,4 +1111,12 @@ p span span {
 .shop_cart_inner_item span {
   color: #fff;
   font-size: 24px;
+}
+
+.account_reset_area a {
+  background: none;
+  border: none;
+  padding: 0;
+  display: inline-block;
+  margin: 2px 5px;
 }
