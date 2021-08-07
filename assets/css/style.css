@@ -11,7 +11,7 @@ body,
 html {
   height: 100%;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Uni Neue';
+  font-family: "Uni Neue";
 }
 
 a {
@@ -39,12 +39,14 @@ focus {
 }
 
 .navbar_important_link a {
-
   color: #666;
 }
-::-webkit-input-placeholder { /* Edge */
+
+::-webkit-input-placeholder {
+  /* Edge */
   font-size: 14px;
 }
+
 /* ================= scroll sticky menu   ================= */
 .header-main-area.scroll-header {
   position: fixed;
@@ -70,29 +72,48 @@ focus {
   top: 16%;
   display: none;
 }
+
 .header_right_toggle_btn {
   position: absolute;
   right: 0;
   padding: 0px 10px;
   display: none;
 }
+
 .responsive_toggle_btn i {
   font-size: 30px;
 }
-.site_logo_responsive_icon{
+
+.site_logo_responsive_icon {
   display: none;
 }
+
 .header_middle_profile_wrap h4 {
   display: none;
   text-align: center;
 }
 
 .mobile_hero_feature {
-  display: none!important;
+  display: none !important;
 }
+
 .on_going_campaign {
   display: none;
 }
+
+.header_middle_profile_wrap .dropdown-toggle::after {
+  display: none;
+}
+
+.header_middle_profile_wrap button {
+  border: none;
+  background: none;
+}
+
+.modal-backdrop {
+  background-color: transparent;
+}
+
 /* ================= scroll sticky menu   ================= */
 
 /* ================= navbar wrap   ================= */
@@ -105,6 +126,7 @@ focus {
   top: 0;
   display: none;
 }
+
 .main_navbar_inner {
   height: 100vh;
   display: flex;
@@ -114,6 +136,7 @@ focus {
   position: absolute;
   right: 0;
 }
+
 .navbar_toggle_bg {
   content: "";
   /* position: absolute; */
@@ -123,7 +146,6 @@ focus {
   left: 0;
   top: 0;
 }
-
 
 .navbar_items_area {
   width: 30%;
@@ -149,19 +171,23 @@ focus {
   background: #ff00000f;
   font-weight: 600;
 }
+
 .navbar_items_wrap {
   margin-top: 10px;
 }
+
 .navbar_items_wrap ul {
   padding-left: 0;
   margin-bottom: 0;
 }
+
 .navbar_items_wrap ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 8px 7%;
 }
+
 .navbar_items_wrap ul li a>span {
   display: inline-block;
   margin-right: 15px;
@@ -171,9 +197,8 @@ focus {
   padding: 30px 8%;
   padding-bottom: 0;
 }
+
 /* ================= navbar wrap   ================= */
-
-
 
 /* ================= header top area   ================= */
 .header_top_main_wrap {
@@ -266,6 +291,7 @@ p span span {
   border-radius: 5px;
   overflow: hidden;
 }
+
 .header_search_wrap input {
   width: 84%;
   border: none;
@@ -374,7 +400,6 @@ p span span {
   margin-right: 15px;
 }
 
-
 /* ================= -----------------  ================= */
 .header_bottom_navbar_right ul {
   padding-left: 0;
@@ -391,6 +416,7 @@ p span span {
   display: flex;
   align-items: center;
   position: relative;
+  justify-content: flex-end;
 }
 
 .header_right_toggle_btn i {
@@ -426,6 +452,7 @@ p span span {
   align-items: center;
   justify-content: space-between;
 }
+
 .mobile_hero_feature {
   display: flex;
   padding: 15px 7px;
@@ -433,28 +460,32 @@ p span span {
   align-items: center;
   padding-bottom: 0px;
 }
+
 .feature_single_item {
   text-align: center;
   width: 20%;
 }
+
 .feature_single_item p {
   font-size: 12px;
   margin-top: 7px;
 }
+
 .on_going_campaign h4 {
   margin-bottom: 10px;
   font-size: 15px;
   font-weight: 400;
 }
+
 .feature_single_item img {
   width: 100%;
   padding: 5px;
 }
+
 .site_logo_responsive_icon h3 {
- 
-  background: rgb(13 110 253 / 25%)!important;
- 
+  background: rgb(13 110 253 / 25%) !important;
 }
+
 /* ================= ---------------------------  ================= */
 .hero_top_slider {
   margin-top: 25px;
@@ -475,12 +506,12 @@ p span span {
   position: relative;
   margin: 5px;
   border-radius: 25px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .hero_top_slider .owl-dots button.owl-dot.active {
   width: 40px;
-  transition: .3s;
+  transition: 0.3s;
   background: #ff1e1e !important;
 }
 
@@ -555,9 +586,11 @@ p span span {
   font-size: 30px;
   margin: 0px 3px;
 }
+
 .brand_single_item_wrap {
   margin: 3px;
 }
+
 /* ================= express area   ================= */
 
 /* ================= product brand area   ================= */
@@ -571,9 +604,11 @@ p span span {
   justify-content: space-between;
   padding: 40px 0;
 }
+
 .product_single_bottom .product_title {
   padding: 0px 0;
 }
+
 .search_box {
   border: 1px solid #000;
   padding-left: 10px;
@@ -664,7 +699,7 @@ p span span {
   background: linear-gradient(90deg, rgb(61, 75, 84) 0%, rgb(28, 37, 42) 100%);
   color: #fff;
   padding: 8px 14px;
-  font-size: 24px;
+  font-size: 19px;
   border-radius: 5px;
   margin-left: 15px;
   border: 1px solid #202a2f;
@@ -700,9 +735,10 @@ p span span {
   border: 1px solid #ff0000;
   border-radius: 5px;
   margin-left: 15px;
-  color: #fff!important;
-  margin-bottom: 0!important;
+  color: #fff !important;
+  margin-bottom: 0 !important;
 }
+
 .product_single_items_wrap {
   margin-bottom: 20px;
 }
@@ -796,7 +832,12 @@ p span span {
 }
 
 .footer_important_link>a:nth-child(2) {
-  background: radial-gradient(circle at 30% 107%, rgb(253, 244, 151) 0%, rgb(253, 244, 151) 5%, rgb(253, 89, 73) 45%, rgb(214, 36, 159) 60%, rgb(40, 90, 235) 90%);
+  background: radial-gradient(circle at 30% 107%,
+      rgb(253, 244, 151) 0%,
+      rgb(253, 244, 151) 5%,
+      rgb(253, 89, 73) 45%,
+      rgb(214, 36, 159) 60%,
+      rgb(40, 90, 235) 90%);
 }
 
 .footer_important_link>a:nth-child(3) {
@@ -816,13 +857,252 @@ p span span {
 .footer_bottom_wrap p {
   color: #fff;
 }
+
 .footer_single_title h4 {
   margin-bottom: 16px;
   font-size: 24px;
 }
+
 .footer_single_item_wrap {
   margin-bottom: 25px;
 }
+
 /* ================= footer area   ================= */
 /* ================= product area   ================= */
 /* ================= product area   ================= */
+
+.notification_wrap {
+  position: relative;
+}
+
+.massage_wrap {
+  position: relative;
+}
+
+.account_wrap {
+  position: relative;
+}
+
+.notification_wrap .modal__main__wrap {
+  width: 350px;
+  min-height: unset !important;
+  right: 21% !important;
+  overflow: unset;
+  left: unset;
+  top: 12%;
+  align-items: unset;
+  position: absolute;
+}
+.notification_wrap .modal__main__wrap .modal-body {
+  padding: 20px 12%;
+}
+.massage_wrap .modal__main__wrap {
+  width: 300px;
+  min-height: unset !important;
+  right: 16% !important;
+  overflow: unset;
+  left: unset;
+  top: 12%;
+  align-items: unset;
+  position: absolute;
+}
+
+.account_wrap .modal__main__wrap {
+  width: 250px;
+  min-height: unset !important;
+  right: 12% !important;
+  overflow: unset;
+  left: unset;
+  top: 12%;
+  align-items: unset;
+  position: absolute;
+}
+
+.modal__main__wrap .nav {
+  justify-content: space-between;
+  /* padding: 15px 30px;
+  box-shadow: 0px 3px 5px -1px rgb(13 110 253 / 25%); */
+}
+
+.modal-header {
+  padding: 5px 10px;
+  border-bottom: 1px solid #dee2e6;
+  background: #e2e8f0;
+}
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #000;
+}
+.modal__main__wrap .nav.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #dc3545;
+    background-color: unset;
+    border-bottom: 2px solid red;
+    border-radius: unset;
+    padding: 0;
+}
+.modal__main__wrap .nav {
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 16px;
+}
+.modal__main__wrap .nav-pills .nav-link{
+  padding: 0;
+}
+.modal__main__wrap .tab-content {
+  padding: 15px 10px;
+  text-align: center;
+  padding-top: 0;
+}
+
+.tab-content img {
+  width: 70px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.tab-content img {
+  width: 70px;
+  margin-bottom: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+.tab-content p {
+  font-size: 13px;
+}
+
+#pills-home2 img {
+  width: 100%;
+}
+
+#pills-home2 p {
+  font-size: 16px;
+}
+
+#pills-home2 a {
+  display: inline-block;
+  background: red;
+  color: #fff;
+  padding: 2px 26px;
+  margin-top: 18px;
+  border-radius: 8px;
+}
+
+#pills-profile2 img {
+  width: 100%;
+}
+
+#pills-profile2 p {
+  font-size: 16px;
+}
+
+#pills-profile2 a {
+  display: inline-block;
+  background: red;
+  color: #fff;
+  padding: 2px 26px;
+  margin-top: 18px;
+  border-radius: 8px;
+}
+
+.btn.account_wrap_login_btn {
+  display: block;
+  background: #c53030;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.account_reset_area p {
+  font-size: 13px;
+}
+
+.account_reset_area a {
+  color: #c53030;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.account_wrap .form-group {
+  margin-bottom: 15px;
+}
+
+/* ================================= */
+
+.main_cart_wrap {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 9999;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+.main_navbar_inner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.cart_toggle_bg {
+  content: "";
+  width: 70%;
+  height: 100%;
+  background: #00000030;
+  left: 0;
+  top: 0;
+}
+
+.navbar_items_area {
+  width: 30%;
+  height: 100%;
+  background: #000;
+  right: 0;
+  z-index: 999;
+}
+
+.cart_item_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+}
+
+.cart_hide_btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 3px;
+}
+
+.cart_item_header p {
+  color: #fff;
+}
+
+.cart_item_body {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.shop_cart_inner_item p {
+  color: #fff;
+}
+
+.shop_cart_inner_item span {
+  color: #fff;
+  font-size: 24px;
+}

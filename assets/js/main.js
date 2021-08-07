@@ -76,4 +76,24 @@ $(document).ready(function () {
     $(".header_right_toggle_btn").click(function () {
         $(".header_bottom_navbar_right").fadeToggle('slow');
     });
+
+
+    // ===========
+
+    $(".shop_cart_wrap").click(function () {
+        $(".main_cart_wrap").animate({
+            width: "toggle"
+        });
+    }); 
+    $(".cart_toggle_bg").click(function () {
+        $(".main_cart_wrap").animate({
+            width: "toggle"
+        });
+    });
+    $(".cart_hide_btn").click(function () {
+        $(".main_cart_wrap").animate({
+            width: "toggle"
+        });
+    });
+   
 });
