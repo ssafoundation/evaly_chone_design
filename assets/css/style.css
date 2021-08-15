@@ -48,10 +48,16 @@ p {
   margin-bottom: 0;
   font-size: 14px;
 }
-a{
-  font-size: 13px;
+
+a {
+  font-size: 14px;
 }
-focus {
+
+del {
+  color: #777;
+}
+
+:focus {
   outline: none;
 }
 
@@ -76,7 +82,7 @@ main {
 }
 
 /* ================= scroll sticky menu   ================= */
-.header-main-area.scroll-header {
+.header-main-area {
   position: fixed;
   width: 100%;
   z-index: 99;
@@ -84,10 +90,21 @@ main {
   top: 0;
   left: 0;
   right: 0;
+  transition: .3s;
+
 }
 
-.header-main-area.scroll-header .header_top {
-  display: none;
+.header-main-area.scroll-header {
+  top: -40px;
+  transition: .3s;
+}
+
+.sticky_header {
+  margin-top: 155px;
+}
+
+.product_page_wrap.sticky_header {
+  margin-top: 180px;
 }
 
 .emart-brand {
@@ -142,6 +159,119 @@ main {
   background-color: transparent;
 }
 
+/* ============================= */
+.main_cart_wrap.after_product_added .navbar_items_area {
+  background: #fff;
+  position: relative;
+}
+
+.added_product_body {
+  align-items: unset!important;
+  justify-content: unset!important;
+  padding: 0px 5%;
+  text-align: left!important;
+  display: unset!important;
+}
+
+.after_product_added .cart_item_header i {
+  color: #333;
+}
+.after_product_added .cart_item_header p {
+  color: #333;
+}
+
+.shop_cart_added_product {
+  display: flex;
+  width: 100%;
+  padding: 0px 5%;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.added_product_content_right {
+  padding-left: 10px;
+  width: 80%;
+}
+.added_product_content_right h4 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.added_product_image_left img {
+  width: 60px;
+}
+.added_product_quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.added_product_field {
+  display: flex;
+  align-items: center;
+}
+
+.added_product_field span {
+  font-size: 14px;
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+  color: #333;
+  border: 1px solid;
+  line-height: 18px;
+  margin: 2px;
+}
+.added_product_count {
+  line-height: 20px;
+  width: 40px!important;
+  height: 20px;
+  display: inline-block;
+}
+.added_product_count input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 14px;
+  padding: 0px 3px;
+}
+.shop_price_count_bottom {
+  width: 100%;
+  padding: 10px 5%;
+  position: absolute;
+  bottom: 0;
+}
+
+.sub_total_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.total_product_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.checkout_btn {
+  text-align: center;
+}
+
+.checkout_btn button {
+  background: #c53030;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 10px;
+  color: #fff;
+}
+.added_product_quantity_left p {
+  margin-bottom: 5px;
+}
+.added_product_quantity_right i {
+  color: #333;
+}
 /* ================= scroll sticky menu   ================= */
 
 /* ================= navbar wrap   ================= */
@@ -314,10 +444,11 @@ p span span {
 }
 
 .header_search_wrap {
-  width: 100%;
+  width: 90%;
   border: 1px solid #c53030;
   border-radius: 5px;
   overflow: hidden;
+  float: right;
 }
 
 .header_search_wrap input {
@@ -348,7 +479,7 @@ p span span {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  margin-left: 1%;
+  margin-left: 10%;
 }
 
 .header_middle_profile_wrap span {
@@ -397,12 +528,13 @@ p span span {
   align-items: center;
   width: 100%;
   justify-content: space-between;
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .category_btn i {
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 /* ================= .category_btn span {
@@ -607,12 +739,12 @@ p span span {
 
 .express_items_wrap .owl-nav {
   position: absolute;
-  top: -80px;
+  top: -68px;
   right: 0;
 }
 
 .express_items_wrap .owl-nav button span {
-  font-size: 30px;
+  font-size: 20px;
   margin: 0px 3px;
 }
 
@@ -637,12 +769,12 @@ p span span {
 .product_single_bottom .product_title {
   padding: 0px 0;
 }
-
 .search_box {
   border: 1px solid #000;
   padding-left: 10px;
   border-radius: 5px;
   overflow: hidden;
+  border-right: 0;
 }
 
 .search_box input {
@@ -655,7 +787,7 @@ p span span {
   outline: none;
   background: linear-gradient(90deg, rgb(61, 75, 84) 0%, rgb(28, 37, 42) 100%);
   color: #fff;
-  padding: 8px 25px;
+  padding: 7px 25px;
   font-size: 13px;
 }
 
@@ -695,9 +827,14 @@ p span span {
   padding: 10px;
 }
 
+.view_all_product p {
+  margin-bottom: 10px;
+}
+
 .view_all_product_btn {
   background: #c53030;
   color: #fff !important;
+  font-size: 14px;
 }
 
 /* ================= -------------------  ================= */
@@ -728,7 +865,7 @@ p span span {
   background: linear-gradient(90deg, rgb(61, 75, 84) 0%, rgb(28, 37, 42) 100%);
   color: #fff;
   padding: 8px 14px;
-  font-size: 19px;
+  font-size: 14px;
   border-radius: 5px;
   margin-left: 15px;
   border: 1px solid #202a2f;
@@ -760,7 +897,7 @@ p span span {
 
 .product_store_title_right>a {
   background: #c53030;
-  padding: 6px 14px;
+  padding: 8px 14px;
   border: 1px solid #ff0000;
   border-radius: 5px;
   margin-left: 15px;
@@ -773,7 +910,7 @@ p span span {
   position: relative;
 }
 
-.product_single_items_wrap:after {
+/* .product_single_items_wrap:after {
   content: "-20%";
   width: 40px;
   line-height: 26px;
@@ -786,7 +923,7 @@ p span span {
   font-size: 13px;
   text-align: center;
   border-radius: 4px;
-}
+} */
 
 .product_single_item {
   box-shadow: 0 0px 3px 0 rgb(0 0 0 / 20%), 0 1px 2px 0 rgb(0 0 0 / 20%);
@@ -1161,6 +1298,10 @@ p span span {
   font-size: 24px;
 }
 
+.account_reset_area {
+  text-align: center;
+}
+
 .account_reset_area a {
   background: none;
   border: none;
@@ -1181,3 +1322,42 @@ p span span {
 .footer_single_item_wrap>a img {
   margin-bottom: -10px;
 }
+
+
+/* =============================================== */
+.account_profile_wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.account_login_wrap {
+  text-align: left;
+}
+
+.account_body {
+  border: 1px solid #ddd;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.account_body ul {
+  justify-content: space-between;
+}
+
+.account_body ul li button {
+  padding: 0 0;
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.account_body ul li button.active {
+  border-bottom: 2px solid #dc3545;
+  border-radius: 0;
+}
+
+/* =============================================== */
